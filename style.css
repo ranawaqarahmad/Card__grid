@@ -1,0 +1,105 @@
+
+.container{
+  width:1270px;
+  margin:auto;
+  padding:30px 0;
+}
+.grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+}
+.card-grid{
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.main {
+  background: #525252;
+}
+.main p{
+  font-size:15px;
+  font-weight:400;
+}
+.btn{
+  margin-top:50px;
+  margin-bottom:25px;
+}
+.btn a{
+  color: #fff;
+  text-decoration:none;
+  border: 2px solid grey;
+  padding:10px 20px;
+}
+.side {
+  background: #fea;
+}
+.main,
+.side {
+  padding: 30px;
+  color:#fff;
+/*   border-radius: 10px */
+}
+.bg-dark{
+  background-image: url('https://images.pexels.com/photos/90317/pexels-photo-90317.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-size: cover;
+  padding: 50px;
+}
+@media(max-width: 400px){
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+/* Card */
+
+
+
+.card {
+  width: 400px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  font-family: montserrat;
+  
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 20px 20px 40px #00000050;
+opacity: 1;
+  
+}
+.bold-s-heading{
+  font: normal normal 800 15px/19px Montserrat;
+letter-spacing: 0px;
+color: #272727;
+opacity: 1;
+}
+.card-p{
+  font: normal normal 300 18px/22px Montserrat;
+letter-spacing: 0px;
+color: #272727;
+opacity: 1;
+}
+
+.card-btn a{
+  border: 1px solid #272727;
+opacity: 1;
+  padding:13px 61px;
+  font-size:20px;
+}
+.card-btn a{
+  color: #272727;
+  text-decoration:none;
+  text-align:center;
+}
+.cardcontent {
+  background: white;  
+  padding-left: 25px;
+  padding-right: 25px;
+
+}
+.cardcontent h3{
+  color:#B30205;
+  font: normal normal bold 40px/37px Cormorant Garamond;
+}
